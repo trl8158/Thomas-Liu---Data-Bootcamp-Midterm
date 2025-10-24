@@ -18,7 +18,7 @@ Results/Findings:
 
 After accessing and loading data, we first visualized the prices of all three together to see if there were any obvious trends. We then produced scatter plots to illustrate the prices of all three items against each other, one-on-one. From these graphs, it was clear that there existed a strong correlation among item prices.
 	
-Although all have significant volatility, our line graphs of all three commodities indicated that the price of goods rose significantly from 1980 to 2025, which hinted at the effect of inflation and an increase in production costs. Moreover, the volatility of egg prices was notable, with significant spikes during the early 2020s, likely due to nationwide bird flu that reduced supply. 
+Although all have significant volatility, our line graphs of all three commodities indicated that the price of goods rose significantly from 1980 to 2025, which hinted at the effect of inflation and an increase in production costs. Moreover, the volatility of egg prices was notable, with significant spikes during the early 2020s, likely due to nationwide bird flu that reduced supply. In contrast, milk and bread prices rose steadily, with few spikes. However, when all three goods were plotted together, they followed a similar pattern, which indicated that items in similar categories respond to similar market forces.
 
 We found that the prices of eggs, milk, and bread are highly correlated, as confirmed by correlation matrices and hypothesis tests. We quantified these relationships by generating correlation matrices, which confirmed that there were indeed strong correlations among item prices, with many coefficients close to 1. To rigorously determine whether there was indeed an association between commodity prices, we also ran a hypothesis test to assess whether the correlations between the variables were significant, and found that all yielded significant results. Therefore, it is apparent that there is a clear connection between eggs, milk, and bread products. 
 
@@ -36,6 +36,9 @@ Second, there are many possible alternatives to explain the correlation between 
 
 Future Exploration of Data:
 	One thing we wanted to analyze but ran out of time to do was create regression models for the prices of individual items against each other. For example, we wanted to create a model that could determine the price of eggs based on the price of bread. This would be helpful for consumers who want to predict, with a relatively high degree of accuracy, the price of certain goods based on fluctuations in other items. We also were thinking about comparing these to other economic indicators to see what affects the average American consumer. These include economic growth, unemployment, and potentially labor statistics like wages and participation. 
+
+
+
 
 
 
